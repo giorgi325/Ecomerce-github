@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responcive.css" />
+    <script
+      src="https://kit.fontawesome.com/4dd95a71c6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/4dd95a71c6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- ! header -->
+    <section id="header">
+      <a href="./index.html"><img src="./logo.png" class="logo" alt="" /></a>
+      <div>
+        <ul id="navBar">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./shop.html">Shop</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./constact.html">Contact Us</a></li>
+          <li id="lg-bag">
+            <a class="active" href="./cart.html"
+              ><i class="fa-solid fa-bag-shopping"></i
+            ></a>
+          </li>
+          <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a class="active" href="./cart.html"
+          ><i class="fa-solid fa-bag-shopping"></i
+        ></a>
+        <i id="bar" class="fa-solid fa-bars"></i>
+      </div>
+    </section>
+    <!-- header -->
+    <!-- ! hero -->
+    <section id="page-header" class="about-header">
+      <h2>#Let's_talk</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </section>
+    <!-- hero -->
+
+    <section id="cart" class="section-p1">
+      <table width="100%">
+        <thead>
+          <tr>
+            <td>remove</td>
+            <td>Image</td>
+            <td>Product</td>
+            <td>Price</td>
+            <td>Quantity</td>
+            <td>Subtotal</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><i class="fa-solid fa-trash"></i></td>
+            <td><img src="./products/f1.jpg" alt="" /></td>
+            <td>T-shirt</td>
+            <td>23$</td>
+            <td><input type="number" value="1" /></td>
+            <td>23$</td>
+          </tr>
+          <tr>
+            <td><i class="fa-solid fa-trash"></i></td>
+            <td><img src="./products/f2.jpg" alt="" /></td>
+            <td>T-shirt</td>
+            <td>23$</td>
+            <td><input type="number" value="1" /></td>
+            <td>23$</td>
+          </tr>
+          <tr>
+            <td><i class="fa-solid fa-trash"></i></td>
+            <td><img src="./products/f3.jpg" alt="" /></td>
+            <td>T-shirt</td>
+            <td>23$</td>
+            <td><input type="number" value="1" /></td>
+            <td>23$</td>
+          </tr>
+          <tr>
+            <td><i class="fa-solid fa-trash"></i></td>
+            <td><img src="./products/f4.jpg" alt="" /></td>
+            <td>T-shirt</td>
+            <td>23$</td>
+            <td><input type="number" value="1" /></td>
+            <td>23$</td>
+          </tr>
+          <tr>
+            <td><i class="fa-solid fa-trash"></i></td>
+            <td><img src="./products/f5.jpg" alt="" /></td>
+            <td>T-shirt</td>
+            <td>23$</td>
+            <td><input type="number" value="1" /></td>
+            <td>23$</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+      <div id="coupon">
+        <h3>Apply Coupon</h3>
+        <div>
+          <input type="text" placeholder="Enter you coupon" />
+          <button class="normal">Apply</button>
+        </div>
+      </div>
+
+      <div id="subtotal">
+        <h3>Cart Total</h3>
+        <table>
+          <tr>
+            <td>Cart Subtotal</td>
+            <td>$47</td>
+          </tr>
+          <tr>
+            <td>Shipping</td>
+            <td>Free</td>
+          </tr>
+          <tr>
+            <td><strong>Total</strong></td>
+            <td><strong>$47</strong></td>
+          </tr>
+        </table>
+        <button class="normal">Procces To Checkout</button>
+      </div>
+    </section>
+
+    <!-- !footer -->
+    <footer class="section-p1">
+      <div class="col">
+        <img class="logo" src="./logo.png" alt="" />
+        <h4>Contact</h4>
+        <p><strong>Addres:</strong> wenston's streat, San Francisco</p>
+        <p><strong>Phone:</strong> +23 1123 32 4 (23) 09</p>
+        <p><strong>Hours:</strong> 9 AM till 6PM by the USA time Mon-Sat</p>
+        <div class="follow">
+          <h4>Follow Us</h4>
+          <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-pinterest-p"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Dilivery Information</a>
+        <a href="#">Privaci Police</a>
+        <a href="#">Tears & Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My wish list</a>
+        <a href="#">Track my order</a>
+        <a href="#">Helpt</a>
+      </div>
+
+      <div class="col install">
+        <h4>Intall App</h4>
+        <p>explicabo voluptate.</p>
+        <div class="row">
+          <img src="./pay/app.jpg" alt="" />
+          <img src="./pay/play.jpg" alt="" />
+        </div>
+        <p>Secure Payment Getaways</p>
+        <img src="./pay/pay.png" alt="" />
+      </div>
+    </footer>
+    <!-- footer -->
+    <script src="./index.js"></script>
+  </body>
+</html>
